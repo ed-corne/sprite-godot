@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceuexbsc5ihg7"]
+
+[ext_resource type="Texture2D" uid="uid://bcyu7rjee3o27" path="res://superman.png" id="1_j5bh8"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_eo66h"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(562, 316)
+scale = Vector2(0.332995, 0.332995)
+texture = ExtResource("1_j5bh8")
+script = ExtResource("2_eo66h")
